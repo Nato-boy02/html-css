@@ -1,0 +1,14 @@
+o html5 esta focado em significados nos conteudos 
+exmplo
+imagens
+titulos
+videos
+endereco
+no html5 os estilos e formas de conteudos efica no cargo das css
+exmplo
+formatacao
+tamanho 
+corre
+no html5 os efeitos ficam a cargo do javacript
+o html4 estava focado em formas como os conteudos 
+eram apresentados isso significa que au colocar um conteudo tes que colocar junto a sua forma

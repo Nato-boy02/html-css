@@ -1,0 +1,3 @@
+sempres temos que consultar se uma tag ja foi ultrapacada para nao usar tags atigas 
+no e pesquise por html5 obsolete tags
+link dev.w3.org

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em HTML5</title>
+</head>
+<body>
+    <H1>imagem dinamica</H1>
+    <p>tente abrir essa site em varios dispositivos diferentes ou simplemente aumente e diminua o tamanho do seu navegador usa a tag picture e dentro a tag img</p>
+    <picture>
+        <!--como a tag source midia type mas indicar o tipo de imagam para o dispositivo de acordo como o tanaho a ordem e de cima para baixo do mas pequeno au maior -->
+        <source media="(max-width: 701px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1001px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1> reprodusindo audio</h1>
+    <p>vamos apredender a reproduzir em html5 usando a tag AUDIO</p> <!--os navegadores sao compatives nos formatos MP3 WAY OGG-->
+    <audio src="midia/3 Finer  Mente Confusa ft Gerilson Insrael (Official Video)-1.mp3" autoplay controls></audio><!--a\paramento auto play e para produzir automaticamente-->
+    <P>segunda forma de colar audio de varios tipos a tag AUDIO dentro SOURCE SRC</P>
+    <audio preload="metadata" controls loop> <!--preload metadata mostrar dados do arquivo e controls mostra o control de play e loop repete a musica sao paramento da tag-->
+        <source src="midia/3 Finer  Mente Confusa ft Gerilson Insrael (Official Video)-1.mp3" type="audio/mpeg">
+        <source src="midia/3 Finer  Mente Confusa ft Gerilson Insrael (Official Video)-1.ogg" type="audio/ogg">
+        <source src="midia/3 Finer  Mente Confusa ft Gerilson Insrael (Official Video)-1.wav" type="audio/wav">
+        <p>infelismente o seu navegador nao consegue reproduzir oudia <a href="midia/3 Finer  Mente Confusa ft Gerilson Insrael (Official Video)-1.mp3">clique aqui para baixar o arquivo</a></p>
+    </audio>
+</body>
+</html>
