@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro Formulario</h1>
+    <form action="cadastro.php" autocomplete="off" method="post"> <!--outocomplete serve para completar dados ja escritos action serve para submeter os dados do formulario. o method post serve para remover dados do user na url-->
+        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p> <!--o label serve para juntar e indicar o imput usando id-->
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
